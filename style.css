@@ -23,3 +23,21 @@
     left: 10px;
 }
 
+.cell.active {
+    background-image: url(/goblins-game/2dbd01ce16c0fa83cb67.png);
+    background-size: cover;
+    background-position: center;
+}
+
+body {
+    cursor: url(/goblins-game/2f90dccd01d771051e77.png) 16 16, auto;
+}
+
+.scoreboard {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 18px;
+    margin: 20px 0;
+}
+
