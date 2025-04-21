@@ -22,3 +22,21 @@
     top: 10px;
     left: 10px;
 }
+
+.cell.active {
+    background-image: url('./img/goblin.png');
+    background-size: cover;
+    background-position: center;
+}
+
+body {
+    cursor: url('./img/hammer.png') 16 16, auto;
+}
+
+.scoreboard {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 18px;
+    margin: 20px 0;
+}
